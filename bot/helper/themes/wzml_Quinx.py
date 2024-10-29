@@ -2,30 +2,30 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = '👨‍💻 OWNER'
+    ST_BN1_NAME = '👨‍💻 Oᴡɴᴇʀ'
     ST_BN1_URL = 'https://t.me/cmd_rulf'
-    ST_BN2_NAME = '🌐 UPDATES'
+    ST_BN2_NAME = '🌐 Uᴘᴅᴀᴛᴇs'
     ST_BN2_URL = 'https://t.me/Rulf_Encoder'
     ST_MSG = '''<i>Tʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs</i>
 <b>Tʏᴘᴇ {help_command} ᴛᴏ ɢᴇᴛ ᴀ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
+    ST_BOTPM = '''<i>Nᴏᴡ, Tʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ᴀʟʟ ʏᴏᴜʀ ғɪʟᴇs ᴀɴᴅ ʟɪɴᴋs ʜᴇʀᴇ. Sᴛᴀʀᴛ Usɪɴɢ...</i>'''
     ST_UNAUTH = '''<i>Yᴏᴜ Aʀᴇ ɴᴏᴛ Aᴜᴛʜᴏʀɪᴢᴇᴅ Usᴇʀ! 💔 \nDᴇᴘʟᴏʏ ʏᴏᴜʀ ᴏᴡɴ WZML-X Mɪʀʀᴏʀ-Lᴇᴇᴄʜ ʙᴏᴛ</i>'''
-    OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
-    USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
-    LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
-    ACTIVATE_BUTTON = 'Activate Temporary Token'
-    TOKEN_MSG = '''<b><u>Generated Temporary Login Token!</u></b>
-<b>Temp Token:</b> <code>{token}</code>
-<b>Validity:</b> {validity}'''
+    OWN_TOKEN_GENERATE = '''<b>Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ ɪs ɴᴏᴛ ʏᴏᴜʀs!</b>\n\n<i>Kɪɴᴅʟʏ ɢᴇɴᴇʀᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ.</i>'''
+    USED_TOKEN = '''<b>Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ!</b>\n\n<i>Kɪɴᴅʟʏ ɢᴇɴᴇʀᴀᴛᴇ ᴀ ɴᴇᴡ ᴏɴᴇ.</i>'''
+    LOGGED_PASSWORD = '''<b>Bᴏᴛ Aʟʀᴇᴀᴅʏ Lᴏɢɢᴇᴅ Iɴ ᴠɪᴀ Pᴀssᴡᴏʀᴅ</b>\n\n<i>Nᴏ Nᴇᴇᴅ ᴛᴏ Aᴄᴄᴇᴘᴛ Tᴇᴍᴘ Tᴏᴋᴇɴs.</i>'''
+    ACTIVATE_BUTTON = 'Aᴄᴛɪᴠᴀᴛᴇ Tᴇᴍᴘᴏʀᴀʀʏ Tᴏᴋᴇɴ'
+    TOKEN_MSG = '''<b><u>Gᴇɴᴇʀᴀᴛᴇᴅ Tᴇᴍᴘᴏʀᴀʀʏ Lᴏɢɪɴ Tᴏᴋᴇɴ!</u></b>
+<b>Tᴇᴍᴘ Tᴏᴋᴇɴ:</b> <code>{token}</code>
+<b>Vᴀʟɪᴅɪᴛʏ:</b> {validity}'''
     # ---------------------
     # async def token_callback(_, query): ---> __main__.py
     ACTIVATED = '✅️ Aᴄᴛɪᴠᴀᴛᴇᴅ ✅'
     # ---------------------
     # async def login(_, message): --> __main__.py
-    LOGGED_IN = '<b>Bot Login In!</b>'
-    INVALID_PASS = '<b>Invalid Password!</b>\n\nKindly put the correct Password .'
-    PASS_LOGGED = '<b>Bot Permanent Login Successfully!</b>'
-    LOGIN_USED = '<b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
+    LOGGED_IN = '<b>Aʟʀᴇᴀᴅʏ Bᴏᴛ Lᴏɢɪɴ Iɴ!</b>'
+    INVALID_PASS = '<b>Iɴᴠᴀʟɪᴅ Pᴀssᴡᴏʀᴅ!</b>\n\nKɪɴᴅʟʏ ᴘᴜᴛ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ Pᴀssᴡᴏʀᴅ .'
+    PASS_LOGGED = '<b>Bᴏᴛ Pᴇʀᴍᴀɴᴇɴᴛ Lᴏɢɪɴ Sᴜᴄᴄᴇssғᴜʟʟʏ!</b>'
+    LOGIN_USED = '<b>Bᴏᴛ Lᴏɢɪɴ Usᴀɢᴇ :</b>\n\n<code>/cmd [ᴘᴀssᴡᴏʀᴅ]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
     LOG_DISPLAY_BT = '📑 Lᴏɢ Dɪsᴘʟᴀʏ'
@@ -133,8 +133,8 @@ class WZMLStyle:
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>Tᴀsᴋ Sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
-    L_LOG_START =           "➲ <b><u>Lᴇᴇᴄʜ Sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
+    PM_START =            "➲ <b><u>Tᴀsᴋ Sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┖ <b>Lɪɴᴋ:</b> <a href='{msg_link}'>Cʟɪᴄᴋ Hᴇʀᴇ</a>"
+    L_LOG_START =           "➲ <b><u>Lᴇᴇᴄʜ Sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>Usᴇʀ :</b> {mention} ( #ID{uid} )\n┖ <b>Sᴏᴜʀᴄᴇ :</b> <a href='{msg_link}'>Cʟɪᴄᴋ Hᴇʀᴇ</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b><i>{Name}</i></b>\n┃\n'
