@@ -6,10 +6,10 @@ class WZMLStyle:
     ST_BN1_URL = 'https://t.me/cmd_rulf'
     ST_BN2_NAME = '🌐 UPDATES'
     ST_BN2_URL = 'https://t.me/Rulf_Encoder'
-    ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
-<b>Type {help_command} to get a list of available commands</b>'''
+    ST_MSG = '''<i>Tʜɪs ʙᴏᴛ ᴄᴀɴ ᴍɪʀʀᴏʀ ᴀʟʟ ʏᴏᴜʀ ʟɪɴᴋs|ғɪʟᴇs|ᴛᴏʀʀᴇɴᴛs ᴛᴏ Gᴏᴏɢʟᴇ Dʀɪᴠᴇ ᴏʀ ᴀɴʏ ʀᴄʟᴏɴᴇ ᴄʟᴏᴜᴅ ᴏʀ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ᴏʀ ᴛᴏ ᴅᴅʟ sᴇʀᴠᴇʀs</i>
+<b>Tʏᴘᴇ {help_command} ᴛᴏ ɢᴇᴛ ᴀ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs</b>'''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
-    ST_UNAUTH = '''<i>You Are not authorized user! 💔 \nDeploy your own WZML-X Mirror-Leech bot</i>'''
+    ST_UNAUTH = '''<i>Yᴏᴜ Aʀᴇ ɴᴏᴛ Aᴜᴛʜᴏʀɪᴢᴇᴅ Usᴇʀ! 💔 \nDᴇᴘʟᴏʏ ʏᴏᴜʀ ᴏᴡɴ WZML-X Mɪʀʀᴏʀ-Lᴇᴇᴄʜ ʙᴏᴛ</i>'''
     OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
     LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
@@ -19,7 +19,7 @@ class WZMLStyle:
 <b>Validity:</b> {validity}'''
     # ---------------------
     # async def token_callback(_, query): ---> __main__.py
-    ACTIVATED = '✅️ Activated ✅'
+    ACTIVATED = '✅️ Aᴄᴛɪᴠᴀᴛᴇᴅ ✅'
     # ---------------------
     # async def login(_, message): --> __main__.py
     LOGGED_IN = '<b>Already Bot Login In!</b>'
@@ -28,34 +28,34 @@ class WZMLStyle:
     LOGIN_USED = '<b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
-    LOG_DISPLAY_BT = '📑 Log Display'
-    WEB_PASTE_BT = '📨 Web Paste (SB)'
+    LOG_DISPLAY_BT = '📑 Lᴏɢ Dɪsᴘʟᴀʏ'
+    WEB_PASTE_BT = '📨 Wᴇʙ Pᴀsᴛᴇ (SB)'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
-    BASIC_BT = 'Basic'
-    USER_BT = 'Users'
-    MICS_BT = 'Mics'
-    O_S_BT = 'Owner & Sudos'
-    CLOSE_BT = 'Close'
-    HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
+    BASIC_BT = 'Bᴀsɪᴄ'
+    USER_BT = 'Usᴇʀs'
+    MICS_BT = 'Mɪᴄs'
+    O_S_BT = 'Oᴡɴᴇʀ & Sᴜᴅᴏs'
+    CLOSE_BT = 'Cʟᴏsᴇ'
+    HELP_HEADER = "㊂ <b><i>Hᴇʟᴘ Gᴜɪᴅᴇ Mᴇɴᴜ!</i></b>\n\n<b>NOTE: <i>Cʟɪᴄᴋ ᴏɴ ᴀɴʏ CMD ᴛᴏ sᴇᴇ ᴍᴏʀᴇ ᴍɪɴᴏʀ ᴅᴇᴛᴀʟɪs.</i></b>"
 
     
     # async def stats(client, message):
-    BOT_STATS = '''<b><i>BOT STATISTICS 🧮</i></b> \n
-<b>⏰ Bot Uptime :</b> {bot_uptime}
+    BOT_STATS = '''<b><i>Bᴏᴛ Sᴛᴀᴛɪsᴛɪᴄs 🧮</i></b> \n
+<b>⏰ Bᴏᴛ Uᴘᴛɪᴍᴇ :</b> {bot_uptime}
 
-┎ <b><i>🎮 RAM ( MEMORY )</i></b>
+┎ <b><i>🎮 Rᴀᴍ ( Mᴇᴍᴏʀʏ )</i></b>
 ┃ {ram_bar} {ram}%
 ┖ <b>U :</b> {ram_u} | <b>F :</b> {ram_f} | <b>T :</b> {ram_t}
 
-┎ <b><i>🍃 SWAP MEMORY</i></b>
+┎ <b><i>🍃 Sᴡᴀᴘ Mᴇᴍᴏʀʏ</i></b>
 ┃ {swap_bar} {swap}%
 ┖ <b>U :</b> {swap_u} | <b>F :</b> {swap_f} | <b>T :</b> {swap_t}
 
-┎ <b><i>💾 DISK </i></b>
+┎ <b><i>💾 Dɪsᴋ </i></b>
 ┃ {disk_bar} {disk}%
-┃ <b>Total Disk Read :</b> {disk_read}
-┃ <b>Total Disk Write :</b> {disk_write}
+┃ <b>Tᴏᴛᴀʟ Dɪsᴋ Rᴇᴀᴅ :</b> {disk_read}
+┃ <b>Tᴏᴛᴀʟ Dɪsᴋ Wʀɪᴛᴇ :</b> {disk_write}
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
     
     '''
@@ -178,48 +178,48 @@ class WZMLStyle:
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
-    PROCESSED =         '\n┠ <b>Done:</b> {Processed}'
-    STATUS =            '\n┠ <b>Status:</b> <a href="{Url}">{Status}</a>'
+    PROCESSED =         '\n┠ <b>Dᴏɴᴇ:</b> {Processed}'
+    STATUS =            '\n┠ <b>Sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | <b>ETA:</b> {Eta}'
-    SPEED =             '\n┠ <b>Speed:</b> {Speed}'
-    ELAPSED =                                     ' | <b>Past:</b> {Elapsed}'
-    ENGINE =            '\n┠ <b>Engine:</b> {Engine}'
-    STA_MODE =          '\n┠ <b>Mode:</b> {Mode}'
-    SEEDERS =           '\n┠ <b>Seeders:</b> {Seeders} | '
-    LEECHERS =                                           '<b>Leechers:</b> {Leechers}'
+    SPEED =             '\n┠ <b>Sᴘᴇᴇᴅ:</b> {Speed}'
+    ELAPSED =                                     ' | <b>Pᴀsᴛ:</b> {Elapsed}'
+    ENGINE =            '\n┠ <b>Eɴɢɪɴᴇ:</b> {Engine}'
+    STA_MODE =          '\n┠ <b>Mᴏᴅᴇ:</b> {Mode}'
+    SEEDERS =           '\n┠ <b>Sᴇᴇᴅᴇʀs:</b> {Seeders} | '
+    LEECHERS =                                           '<b>Lᴇᴇᴄʜᴇʀs:</b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>Size: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>Speed: </b> {Speed} | '
-    UPLOADED =                                     '<b>Uploaded: </b> {Upload}'
-    RATIO =          '\n┠ <b>Ratio: </b> {Ratio} | '
-    TIME =                                         '<b>Time: </b> {Time}'
-    SEED_ENGINE =    '\n┠ <b>Engine:</b> {Engine}'
+    SEED_SIZE =      '\n┠ <b>Sɪᴢᴇ: </b>{Size}'
+    SEED_SPEED =     '\n┠ <b>Sᴘᴇᴇᴅ: </b> {Speed} | '
+    UPLOADED =                                     '<b>Uᴘʟᴏᴀᴅᴇᴅ: </b> {Upload}'
+    RATIO =          '\n┠ <b>Rᴀᴛɪᴏ: </b> {Ratio} | '
+    TIME =                                         '<b>Tɪᴍᴇ: </b> {Time}'
+    SEED_ENGINE =    '\n┠ <b>Eɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ <b>Size: </b>{Size}'
-    NON_ENGINE =     '\n┠ <b>Engine:</b> {Engine}'
+    STATUS_SIZE =    '\n┠ <b>Sɪᴢᴇ: </b>{Size}'
+    NON_ENGINE =     '\n┠ <b>Eɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>User:</b> <code>{User}</code> | '
+    USER =              '\n┠ <b>Usᴇʀ:</b> <code>{User}</code> | '
     ID =                                                        '<b>ID:</b> <code>{Id}</code>'
-    BTSEL =          '\n┠ <b>Select:</b> {Btsel}'
+    BTSEL =          '\n┠ <b>Sᴇʟᴇᴄᴛ:</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '⌬ <b><u>BOT STATS.....</u></b>\n'
-    TASKS =  '┠<b>Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '┠<b>Tasks:</b> {Tasks}/{Ttask} | <b>⚰️ AVL:</b> {Free}\n'
-    Cpu = '┠<b>CPU:</b> {cpu}% | '
+    FOOTER = '⌬ <b><u>Bᴏᴛ Sᴛᴀᴛs.....</u></b>\n'
+    TASKS =  '┠<b>Tᴀsᴋs:</b> {Tasks}\n'
+    BOT_TASKS = '┠<b>Tᴀsᴋs:</b> {Tasks}/{Ttask} | <b>⚰️ AVL:</b> {Free}\n'
+    Cpu = '┠<b>Cᴘᴜ:</b> {cpu}% | '
     FREE =                      '<b>F:</b> {free}'
-    Ram = '\n┠<b>RAM:</b> {ram}% | '
-    uptime =                     '<b>UP:</b> {uptime}'
+    Ram = '\n┠<b>Rᴀᴍ:</b> {ram}% | '
+    uptime =                     '<b>Uᴘ:</b> {uptime}'
     DL = '\n┗<b>🔻 DL:</b> {DL}/s | '
     UL =                        '<b>🔺 UL:</b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '⫷'
-    REFRESH = '📑 Page: {Page}'
+    REFRESH = '📑 Pᴀɢᴇ: {Page}'
     NEXT = '⫸'
     # ---------------------
 
