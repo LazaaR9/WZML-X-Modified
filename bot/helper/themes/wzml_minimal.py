@@ -22,7 +22,7 @@ class WZMLStyle:
     ACTIVATED = '✅️ Aᴄᴛɪᴠᴀᴛᴇᴅ ✅'
     # ---------------------
     # async def login(_, message): --> __main__.py
-    LOGGED_IN = '<b>Already Bot Login In!</b>'
+    LOGGED_IN = '<b>Bot Login In!</b>'
     INVALID_PASS = '<b>Invalid Password!</b>\n\nKindly put the correct Password .'
     PASS_LOGGED = '<b>Bot Permanent Login Successfully!</b>'
     LOGIN_USED = '<b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
@@ -228,74 +228,74 @@ class WZMLStyle:
     # ---------------------
 
     # async def countNode(_, message): ----> gd_count.py
-    COUNT_MSG = '<b>Counting:</b> <code>{LINK}</code>'
+    COUNT_MSG = '<b>Cᴏᴜɴᴛɪɴɢ:</b> <code>{LINK}</code>'
     COUNT_NAME = '<b><i>{COUNT_NAME}</i></b>\n┃\n'
-    COUNT_SIZE = '┠ <b>Size: </b>{COUNT_SIZE}\n'
-    COUNT_TYPE = '┠ <b>Type: </b>{COUNT_TYPE}\n'
-    COUNT_SUB =  '┠ <b>SubFolders: </b>{COUNT_SUB}\n'
-    COUNT_FILE = '┠ <b>Files: </b>{COUNT_FILE}\n'
-    COUNT_CC =   '┖ <b>By: </b>{COUNT_CC}\n'
+    COUNT_SIZE = '┠ <b>Sɪᴢᴇ: </b>{COUNT_SIZE}\n'
+    COUNT_TYPE = '┠ <b>Tʏᴘᴇ: </b>{COUNT_TYPE}\n'
+    COUNT_SUB =  '┠ <b>SᴜʙFᴏʟᴅᴇʀs: </b>{COUNT_SUB}\n'
+    COUNT_FILE = '┠ <b>Fɪʟᴇs: </b>{COUNT_FILE}\n'
+    COUNT_CC =   '┖ <b>Bʏ: </b>{COUNT_CC}\n'
     # ---------------------
 
     # LIST ---> gd_list.py
-    LIST_SEARCHING = '<b>Searching for <i>{NAME}</i></b>'
-    LIST_FOUND = '<b>Found {NO} result for <i>{NAME}</i></b>'
-    LIST_NOT_FOUND = 'No result found for <i>{NAME}</i>'
+    LIST_SEARCHING = '<b>Sᴇᴀʀᴄʜɪɴɢ ғᴏʀ <i>{NAME}</i></b>'
+    LIST_FOUND = '<b>Fᴏᴜɴᴅ {NO} ʀᴇsᴜʟᴛ ғᴏʀ <i>{NAME}</i></b>'
+    LIST_NOT_FOUND = 'Nᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ғᴏʀ <i>{NAME}</i>'
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-    NO_ACTIVE_DL = '''No Active Downloads ! 🗑️
+    NO_ACTIVE_DL = '''Nᴏ Aᴄᴛɪᴠᴇ Dᴏᴡɴʟᴏᴀᴅs ! 🗑️
     
-⌬ <u><b>BOT STATS.......</b></u>
-┠<b>🖥️ CPU:</b> {cpu}% | <b>💿 F:</b> {free}
-┖<b>🎮 RAM:</b> {ram} | <b>🚀 UPTIME:</b> {uptime}
+⌬ <u><b>Bᴏᴛ Sᴛᴀᴛs.......</b></u>
+┠<b>🖥️ Cᴘᴜ:</b> {cpu}% | <b>💿 F:</b> {free}
+┖<b>🎮 Rᴀᴍ:</b> {ram} | <b>🚀 Uᴘᴛɪᴍᴇ:</b> {uptime}
     '''
     # ---------------------
 
     # USER Setting --> user_setting.py 
     # USER Setting --> user_setting.py 
-    USER_SETTING = '''👽 <b><u>User Settings :</u></b>
+    USER_SETTING = '''👽 <b><u>Usᴇʀ Sᴇᴛᴛɪɴɢs :</u></b>
         
-┏<b>👤 Name :</b> {NAME}
-┠<b>🔖 Username :</b> {USERNAME}
+┏<b>👤 Nᴀᴍᴇ :</b> {NAME}
+┠<b>🔖 Usᴇʀɴᴀᴍᴇ :</b> {USERNAME}
 ┠<b>🆔 ID :</b> <code>{ID}</code>
 ┠<b>🔮 DC :</b> <code>{DC}</code>
-┗<b>🗣️ Language :</b> <code>{LANG}</code>
+┗<b>🗣️ Lᴀɴɢᴜᴀɢᴇ :</b> <code>{LANG}</code>
 
-🗳️ <u><b>Available Args:</b></u>
-• <b>-s</b> or <b>-set</b>: Set Directly via Arg'''
+🗳️ <u><b>Aᴠᴀɪʟᴀʙʟᴇ Aʀɢs:</b></u>
+• <b>-s</b> or <b>-set</b>: Sᴇᴛ Dɪʀᴇᴄᴛʟʏ ᴠɪᴀ Aʀɢ'''
 
-    UNIVERSAL = '''🌐 <b><u>Universal Settings : {NAME}</u></b>
+    UNIVERSAL = '''🌐 <b><u>Uɴɪᴠᴇʀsᴀʟ Sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
-┎<b> YT-DLP Options :</b> <b><code>{YT}</code></b>
-┠<b> Daily Tasks :</b> <code>{DT}</code> per day
-┠<b> Last Bot Used :</b> <code>{LAST_USED}</code>
-┠<b> User Session :</b> <code>{USESS}</code>
-┠<b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
-┠<b> Save Mode :</b> <code>{SAVE_MODE}</code>
-┖<b> User Bot PM :</b> <code>{BOT_PM}</code>'''
+┎<b>  YT-DLP Oᴘᴛɪᴏɴs :</b> <b><code>{YT}</code></b>
+┠<b> Dᴀɪʟʏ Tᴀsᴋs :</b> <code>{DT}</code> per day
+┠<b> Lᴀsᴛ Bᴏᴛ Usᴇᴅ :</b> <code>{LAST_USED}</code>
+┠<b> Usᴇʀ Sᴇssɪᴏɴ :</b> <code>{USESS}</code>
+┠<b> MᴇᴅɪᴀIɴғᴏ Mᴏᴅᴇ :</b> <code>{MEDIAINFO}</code>
+┠<b> Sᴀᴠᴇ Mᴏᴅᴇ :</b> <code>{SAVE_MODE}</code>
+┖<b> Usᴇʀ Bᴏᴛ PM :</b> <code>{BOT_PM}</code>'''
 
-    MIRROR = '''🏅 <b><u>Mirror/Clone Settings : {NAME}</u></b>
+    MIRROR = '''🏅 <b><u>Mɪʀʀᴏʀ/Cʟᴏɴᴇ Sᴇᴛᴛɪɴɢs : {NAME}</u></b>
 
-┎<b> RClone Config :</b> <i>{RCLONE}</i>
-┠<b> Mirror Prefix :</b> <code>{MPREFIX}</code>
-┠<b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
-┠<b> Mirror Remname :</b> <code>{MREMNAME}</code>
-┠<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
-┠<b> User TD Mode :</b> <i>{TMODE}</i>
-┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
-┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
+┎<b> RCʟᴏɴᴇ Cᴏɴғɪɢ :</b> <i>{RCLONE}</i>
+┠<b> Mɪʀʀᴏʀ Pʀᴇғɪx :</b> <code>{MPREFIX}</code>
+┠<b> Mɪʀʀᴏʀ Sᴜғғɪx :</b> <code>{MSUFFIX}</code>
+┠<b> Mɪʀʀᴏʀ Rᴇᴍɴᴀᴍᴇ :</b> <code>{MREMNAME}</code>
+┠<b> DDL Sᴇʀᴠᴇʀ(s) :</b> <i>{DDL_SERVER}</i>
+┠<b> Usᴇʀ TD Mᴏᴅᴇ :</b> <i>{TMODE}</i>
+┠<b> Tᴏᴛᴀʟ Usᴇʀ TD(s) :</b> <i>{USERTD}</i>
+┖<b> Dᴀɪʟʏ Mɪʀʀᴏʀ :</b> <code>{DM}</code> per day'''
 
-    LEECH = '''🧲 <b><u>Leech Settings for {NAME}</u></b>
+    LEECH = '''🧲 <b><u>Lᴇᴇᴄʜ Sᴇᴛᴛɪɴɢs ғᴏʀ {NAME}</u></b>
 
-┎<b> Daily Leech : </b><code>{DL}</code> per day
-┠<b> Leech Type :</b> <i>{LTYPE}</i>
-┠<b> Custom Thumbnail :</b> <i>{THUMB}</i>
-┠<b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
-┠<b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
-┠<b> Media Group :</b> <i>{MEDIA_GROUP}</i>
-┠<b> Leech Caption :</b> <code>{LCAPTION}</code>
-┠<b> Leech Prefix :</b> <code>{LPREFIX}</code>
-┠<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
-┠<b> Leech Dumps :</b> <code>{LDUMP}</code>
-┖<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
+┎<b> Dᴀɪʟʏ Lᴇᴇᴄʜ : </b><code>{DL}</code> per day
+┠<b> Lᴇᴇᴄʜ Tʏᴘᴇ :</b> <i>{LTYPE}</i>
+┠<b> Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ :</b> <i>{THUMB}</i>
+┠<b> Lᴇᴇᴄʜ Sᴘʟɪᴛ Sɪᴢᴇ :</b> <code>{SPLIT_SIZE}</code>
+┠<b> Eǫᴜᴀʟ Sᴘʟɪᴛs :</b> <i>{EQUAL_SPLIT}</i>
+┠<b> Mᴇᴅɪᴀ Gʀᴏᴜᴘ :</b> <i>{MEDIA_GROUP}</i>
+┠<b> Lᴇᴇᴄʜ Cᴀᴘᴛɪᴏɴ  :</b> <code>{LCAPTION}</code>
+┠<b> Lᴇᴇᴄʜ Pʀᴇғɪx :</b> <code>{LPREFIX}</code>
+┠<b> Lᴇᴇᴄʜ Sᴜғғɪx :</b> <code>{LSUFFIX}</code>
+┠<b> Lᴇᴇᴄʜ Dᴜᴍᴘs :</b> <code>{LDUMP}</code>
+┖<b> Lᴇᴇᴄʜ Rᴇᴍɴᴀᴍᴇ :</b> <code>{LREMNAME}</code>'''
