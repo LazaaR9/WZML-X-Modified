@@ -41,7 +41,7 @@ class WZMLStyle:
 
     
     # async def stats(client, message):
-    BOT_STATS = '''<b><i>Bᴏᴛ Sᴛᴀᴛɪsᴛɪᴄs 🧮</i></b> \n
+    BOT_STATS = '''<b><i>BOT STATISTICS 🧮</i></b> \n
 <b>⏰ Bᴏᴛ Uᴘᴛɪᴍᴇ :</b> {bot_uptime}
 
 ┎ <b><i>🎮 Rᴀᴍ ( Mᴇᴍᴏʀʏ )</i></b>
@@ -60,116 +60,116 @@ class WZMLStyle:
     
     '''
     SYS_STATS = '''<b><i>🧩 OS SYSTEM </i></b>
-┠ <b>OS Uptime :</b> {os_uptime}
-┠ <b>OS Version :</b> {os_version}
-┖ <b>OS Arch :</b> {os_arch}
+┠ <b>OS Uᴘᴛɪᴍᴇ :</b> {os_uptime}
+┠ <b>OS Vᴇʀsɪᴏɴ :</b> {os_version}
+┖ <b>OS Aʀᴄʜ :</b> {os_arch}
 
 <b><i>🛰️ NETWORK STATISTICS </i></b>
-┠ <b>🔺 Upload Data:</b> {up_data}
-┠ <b>🔻 Download Data:</b> {dl_data}
-┠ <b>Pkts Sent:</b> {pkt_sent}k
-┠ <b>Pkts Received:</b> {pkt_recv}k
-┖ <b>Total I/O Data:</b> {tl_data}
+┠ <b>🔺 Uᴘʟᴏᴀᴅ Dᴀᴛᴀ:</b> {up_data}
+┠ <b>🔻 Dᴏᴡɴʟᴏᴀᴅ Dᴀᴛᴀ:</b> {dl_data}
+┠ <b>Pᴋᴛs Sᴇɴᴛ:</b> {pkt_sent}k
+┠ <b>Pᴋᴛs Rᴇᴄᴇɪᴠᴇᴅ:</b> {pkt_recv}k
+┖ <b>Tᴏᴛᴀʟ I/O Dᴀᴛᴀ:</b> {tl_data}
 
 ┎<i><b>🖥 CPU </b></i>
 ┃ {cpu_bar} {cpu}%
-┠ <b>CPU Frequency :</b> {cpu_freq}
-┠ <b>System Avg Load :</b> {sys_load}
-┠ <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
-┠ <b>Total Core(s) :</b> {total_core}
-┖ <b>Usable CPU(s) :</b> {cpu_use}
+┠ <b>CPU Fʀᴇǫᴜᴇɴᴄʏ :</b> {cpu_freq}
+┠ <b>Sʏsᴛᴇᴍ Aᴠɢ Lᴏᴀᴅ :</b> {sys_load}
+┠ <b>P-Cᴏʀᴇ(s) :</b> {p_core} | <b>V-Cᴏʀᴇ(s) :</b> {v_core}
+┠ <b>Tᴏᴛᴀʟ Cᴏʀᴇ(s) :</b> {total_core}
+┖ <b>Usᴀʙʟᴇ CPU(s) :</b> {cpu_use}
     '''
     REPO_STATS = '''📊 <b><i>REPO STATISTICS :</i></b>
-┠ <b>Bot Updated :</b> {last_commit}
-┠ <b>Current Version :</b> {bot_version}
-┠ <b>Latest Version :</b> {lat_version}
-┖ <b>Last ChangeLog :</b> {commit_details}
+┠ <b>Bᴏᴛ Uᴘᴅᴀᴛᴇᴅ :</b> {last_commit}
+┠ <b>Cᴜʀʀᴇɴᴛ Vᴇʀsɪᴏɴ :</b> {bot_version}
+┠ <b>Lᴀᴛᴇsᴛ Vᴇʀsɪᴏɴ :</b> {lat_version}
+┖ <b>Lᴀsᴛ CʜᴀɴɢᴇLᴏɢ  :</b> {commit_details}
 
 🧬 <b>REMARKS :</b> <code>{remarks}</code>
     '''
     BOT_LIMITS = '''<b><i>BOT LIMITATIONS 🚧</i></b>
-┠<b>🎯 Direct :</b> <code>{DL} GB</code>
-┠<b>🧲 Torrent :</b> <code>{TL} GB</code>
-┠<b>☁️ GDrive :</b> <code>{GL} GB</code>
+┠<b>🎯 Dɪʀᴇᴄᴛ :</b> <code>{DL} GB</code>
+┠<b>🧲 Tᴏʀʀᴇɴᴛ :</b> <code>{TL} GB</code>
+┠<b>☁️ GDʀɪᴠᴇ :</b> <code>{GL} GB</code>
 ┠<b>📺 YT-DLP :</b> <code>{YL} GB</code>
-┠<b>🎥 Playlist :</b> <code>{PL} Videos</code>
-┠<b>Ⓜ️ Mega :</b> <code>{ML} GB</code>
-┠<b>🎗️ Clone :</b> <code>{CL} GB</code>
-┗<b>📂 Leech :</b> <code>{LL} GB</code>
+┠<b>🎥 Pʟᴀʏʟɪsᴛ :</b> <code>{PL} Videos</code>
+┠<b>Ⓜ️ Mᴇɢᴀ :</b> <code>{ML} GB</code>
+┠<b>🎗️ Cʟᴏɴᴇ :</b> <code>{CL} GB</code>
+┗<b>📂 Lᴇᴇᴄʜ :</b> <code>{LL} GB</code>
 
-┎ <b>Token Validity :</b> {TV}
-┠ <b>User Time Limit :</b> {UTI} / task
-┠ <b>User Parallel Tasks :</b> {UT}
-┖ <b>Bot Parallel Tasks :</b> {BT}
+┎ <b>Tᴏᴋᴇɴ Vᴀʟɪᴅɪᴛʏ :</b> {TV}
+┠ <b>Usᴇʀ Tɪᴍᴇ Lɪᴍɪᴛ :</b> {UTI} / ᴛᴀsᴋ
+┠ <b>Usᴇʀ Pᴀʀᴀʟʟᴇʟ Tᴀsᴋs :</b> {UT}
+┖ <b>Bᴏᴛ Pᴀʀᴀʟʟᴇʟ Tᴀsᴋs :</b> {BT}
     '''
     # ---------------------
 
     # async def restart(client, message): ---> __main__.py
-    RESTARTING = '<i>Restarting....♻️</i>'
+    RESTARTING = '<i>Rᴇsᴛᴀʀᴛɪɴɢ....♻️</i>'
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''<b><i>Restarted Successfully ✅</i></b>
-┠ <b>Date:</b> {date}
-┠ <b>Time:</b> {time}
-┠ <b>TimeZone:</b> {timz}
-┖ <b>Version:</b> {version}'''
-    RESTARTED = '''<b><i>Bot Restarted! ✅</i></b>'''
+    RESTART_SUCCESS = '''<b><i>Rᴇsᴛᴀʀᴛᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ ✅</i></b>
+┠ <b>Dᴀᴛᴇ:</b> {date}
+┠ <b>Tɪᴍᴇ:</b> {time}
+┠ <b>TɪᴍᴇZᴏɴᴇ:</b> {timz}
+┖ <b>Vᴇʀsɪᴏɴ:</b> {version}'''
+    RESTARTED = '''<b><i>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ! ✅</i></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
-    PING = '<i>Starting Ping...🌋</i>'
+    PING = '<i>Sᴛᴀʀᴛɪɴɢ Pɪɴɢ...🌋</i>'
     PING_VALUE = '<b>🎯 Pɪɴɢ: </b><code>{value} ms..</code>'
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
-    LINKS_START = """<b><i>Task Started</i></b>
-┠ <b>Mode:</b> {Mode}
-┖ <b>By:</b> {Tag}\n\n"""
-    LINKS_SOURCE = """➲ <b>Source:</b>
-┖ <b>Added On:</b> {On}
+    LINKS_START = """<b><i>Tᴀsᴋ Sᴛᴀʀᴛᴇᴅ</i></b>
+┠ <b>Mᴏᴅᴇ:</b> {Mode}
+┖ <b>Bʏ:</b> {Tag}\n\n"""
+    LINKS_SOURCE = """➲ <b>Sᴏᴜʀᴄᴇ:</b>
+┖ <b>Aᴅᴅᴇᴅ Oɴ:</b> {On}
 ------------------------------------------
 {Source}
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
-    L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
+    PM_START =            "➲ <b><u>Tᴀsᴋ Sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
+    L_LOG_START =           "➲ <b><u>Lᴇᴇᴄʜ Sᴛᴀʀᴛᴇᴅ :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b><i>{Name}</i></b>\n┃\n'
-    SIZE =                  '┠ <b>Size: </b>{Size}\n'
-    ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
-    MODE =                  '┠ <b>Mode: </b>{Mode}\n'
+    SIZE =                  '┠ <b>Sɪᴢᴇ: </b>{Size}\n'
+    ELAPSE =                '┠ <b>Eʟᴀᴘsᴇᴅ: </b>{Time}\n'
+    MODE =                  '┠ <b>Mᴏᴅᴇ: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
-    PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
-    L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
-    L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
+    L_TOTAL_FILES =         '┠ <b>Tᴏᴛᴀʟ Fɪʟᴇs: </b>{Files}\n'
+    L_CORRUPTED_FILES =     '┠ <b>Cᴏʀʀᴜᴘᴛᴇᴅ Fɪʟᴇs: </b>{Corrupt}\n'
+    L_CC =                  '┖ <b>Bʏ: </b>{Tag}\n\n'
+    PM_BOT_MSG =            '➲ <b><i>Fɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ Sᴇɴᴛ ᴀʙᴏᴠᴇ</i></b>'
+    L_BOT_MSG =             '➲ <b><i>Fɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ Sᴇɴᴛ ᴛᴏ Bᴏᴛ PM (Pʀɪᴠᴀᴛᴇ)</i></b>'
+    L_LL_MSG =              '➲ <b><i>Fɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ Sᴇɴᴛ. Aᴄᴄᴇss ᴠɪᴀ Lɪɴᴋs...</i></b>\n'
     
     # ----- MIRROR -------
-    M_TYPE =                '┠ <b>Type: </b>{Mimetype}\n'
-    M_SUBFOLD =             '┠ <b>SubFolders: </b>{Folder}\n'
-    TOTAL_FILES =           '┠ <b>Files: </b>{Files}\n'
-    RCPATH =                '┠ <b>Path: </b><code>{RCpath}</code>\n'
-    M_CC =                  '┖ <b>By: </b>{Tag}\n\n'
-    M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
+    M_TYPE =                '┠ <b>Tʏᴘᴇ: </b>{Mimetype}\n'
+    M_SUBFOLD =             '┠ <b>SᴜʙFᴏʟᴅᴇʀs: </b>{Folder}\n'
+    TOTAL_FILES =           '┠ <b>Fɪʟᴇs: </b>{Files}\n'
+    RCPATH =                '┠ <b>Pᴀᴛʜ: </b><code>{RCpath}</code>\n'
+    M_CC =                  '┖ <b>Bʏ: </b>{Tag}\n\n'
+    M_BOT_MSG =             '➲ <b><i>Lɪɴᴋ(s) ʜᴀᴠᴇ ʙᴇᴇɴ Sᴇɴᴛ ᴛᴏ Bᴏᴛ PM (Pʀɪᴠᴀᴛᴇ)</i></b>'
     # ----- BUTTONS -------
-    CLOUD_LINK =      '☁️ Cloud Link'
-    SAVE_MSG =        '📨 Save Message'
-    RCLONE_LINK =     '♻️ RClone Link'
-    DDL_LINK =        '📎 {Serv} Link'
-    SOURCE_URL =      '🔐 Source Link'
-    INDEX_LINK_F =    '🗂 Index Link'
-    INDEX_LINK_D =    '⚡ Index Link'
-    VIEW_LINK =       '🌐 View Link'
-    CHECK_PM =        '📥 View in Bot PM'
-    CHECK_LL =        '🖇 View in Links Log'
-    MEDIAINFO_LINK =  '📃 MediaInfo'
-    SCREENSHOTS =     '🖼 ScreenShots'
+    CLOUD_LINK =      '☁️ Cʟᴏᴜᴅ Lɪɴᴋ'
+    SAVE_MSG =        '📨 Sᴀᴠᴇ Mᴇssᴀɢᴇ'
+    RCLONE_LINK =     '♻️ RCʟᴏɴᴇ Lɪɴᴋ'
+    DDL_LINK =        '📎 {Sᴇʀᴠ} Lɪɴᴋ'
+    SOURCE_URL =      '🔐 Sᴏᴜʀᴄᴇ Lɪɴᴋ'
+    INDEX_LINK_F =    '🗂 Iɴᴅᴇx Lɪɴᴋ'
+    INDEX_LINK_D =    '⚡ Iɴᴅᴇx Lɪɴᴋ'
+    VIEW_LINK =       '🌐 Vɪᴇᴡ Lɪɴᴋ'
+    CHECK_PM =        '📥 Vɪᴇᴡ ɪɴ Bᴏᴛ PM'
+    CHECK_LL =        '🖇 Vɪᴇᴡ ɪɴ Lɪɴᴋs Lᴏɢ'
+    MEDIAINFO_LINK =  '📃 MᴇᴅɪᴀIɴғᴏ'
+    SCREENSHOTS =     '🖼 SᴄʀᴇᴇɴSʜᴏᴛs'
     # ---------------------
 
     # def get_readable_message(): ---> bot_utilis.py
@@ -224,7 +224,7 @@ class WZMLStyle:
     # ---------------------
 
     #STOP_DUPLICATE_MSG: ---> clone.py, aria2_listener.py, task_manager.py
-    STOP_DUPLICATE = 'File/Folder is already available in Drive.\nHere are {content} list results:'
+    STOP_DUPLICATE = 'Fɪʟᴇ/Fᴏʟᴅᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ Dʀɪᴠᴇ.\nHᴇʀᴇ ᴀʀᴇ {content} ʟɪsᴛ ʀᴇsᴜʟᴛs:'
     # ---------------------
 
     # async def countNode(_, message): ----> gd_count.py
