@@ -178,11 +178,11 @@ class WZMLStyle:
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
-    PROCESSED =         '\n┠ <b>Processed:</b> {Processed}'
+    PROCESSED =         '\n┠ <b>Done:</b> {Processed}'
     STATUS =            '\n┠ <b>Status:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | <b>ETA:</b> {Eta}'
     SPEED =             '\n┠ <b>Speed:</b> {Speed}'
-    ELAPSED =                                     ' | <b>Elapsed:</b> {Elapsed}'
+    ELAPSED =                                     ' | <b>Past:</b> {Elapsed}'
     ENGINE =            '\n┠ <b>Engine:</b> {Engine}'
     STA_MODE =          '\n┠ <b>Mode:</b> {Mode}'
     SEEDERS =           '\n┠ <b>Seeders:</b> {Seeders} | '
@@ -208,12 +208,12 @@ class WZMLStyle:
 
     ####------FOOTER--------
     FOOTER = '⌬ <b><u>BOT STATS.....</u></b>\n'
-    TASKS =  '┠<b>⌛ Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '┠<b>⏳ Tasks:</b> {Tasks}/{Ttask} | <b>⚰️ AVL:</b> {Free}\n'
-    Cpu = '┠<b>🖥️ CPU:</b> {cpu}% | '
-    FREE =                      '<b>💿 F:</b> {free}'
-    Ram = '\n┠<b>🎮 RAM:</b> {ram}% | '
-    uptime =                     '<b>🚀 UP:</b> {uptime}'
+    TASKS =  '┠<b>Tasks:</b> {Tasks}\n'
+    BOT_TASKS = '┠<b>Tasks:</b> {Tasks}/{Ttask} | <b>⚰️ AVL:</b> {Free}\n'
+    Cpu = '┠<b>CPU:</b> {cpu}% | '
+    FREE =                      '<b>F:</b> {free}'
+    Ram = '\n┠<b>RAM:</b> {ram}% | '
+    uptime =                     '<b>UP:</b> {uptime}'
     DL = '\n┗<b>🔻 DL:</b> {DL}/s | '
     UL =                        '<b>🔺 UL:</b> {UL}/s'
 
