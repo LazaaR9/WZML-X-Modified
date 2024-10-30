@@ -44,17 +44,17 @@ PAGE_NO      = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING   = "Upload"
-    STATUS_DOWNLOADING = "Download"
-    STATUS_CLONING     = "Clone"
-    STATUS_QUEUEDL     = "QueueDL"
-    STATUS_QUEUEUP     = "QueueUp"
-    STATUS_PAUSED      = "Pause"
-    STATUS_ARCHIVING   = "Archive"
-    STATUS_EXTRACTING  = "Extract"
-    STATUS_SPLITTING   = "Split"
-    STATUS_CHECKING    = "CheckUp"
-    STATUS_SEEDING     = "Seed"
+    STATUS_UPLOADING   = "Uᴘʟᴏᴀᴅ"
+    STATUS_DOWNLOADING = "Dᴏᴡɴʟᴏᴀᴅ"
+    STATUS_CLONING     = "Cʟᴏɴᴇ"
+    STATUS_QUEUEDL     = "QᴜᴇᴜᴇDL"
+    STATUS_QUEUEUP     = "QᴜᴇᴜᴇUᴘ"
+    STATUS_PAUSED      = "Pᴀᴜsᴇ"
+    STATUS_ARCHIVING   = "Aʀᴄʜɪᴠᴇ"
+    STATUS_EXTRACTING  = "Exᴛʀᴀᴄᴛ"
+    STATUS_SPLITTING   = "Sᴘʟɪᴛ"
+    STATUS_CHECKING    = "CʜᴇᴄᴋUᴘ"
+    STATUS_SEEDING     = "Sᴇᴇᴅ"
 
 
 class setInterval:
@@ -183,18 +183,18 @@ class EngineStatus:
         if not (version_cache := bot_cache.get('eng_versions')):
             get_all_versions()
             version_cache = bot_cache.get('eng_versions')
-        self.STATUS_ARIA = f"Aria2 v{version_cache['aria']}"
-        self.STATUS_AIOHTTP = f"AioHttp {version_cache['aiohttp']}"
-        self.STATUS_GD = f"Google-API v{version_cache['gapi']}"
-        self.STATUS_MEGA = f"MegaSDK v{version_cache['mega']}"
-        self.STATUS_QB = f"qBit {version_cache['qbit']}"
-        self.STATUS_TG = f"PyroMulti v{version_cache['pyro']}"
-        self.STATUS_YT = f"yt-dlp v{version_cache['ytdlp']}"
-        self.STATUS_EXT = "pExtract v2"
-        self.STATUS_SPLIT_MERGE = f"ffmpeg v{version_cache['ffmpeg']}"
-        self.STATUS_ZIP = f"p7zip v{version_cache['p7zip']}"
-        self.STATUS_QUEUE = "Sleep v0"
-        self.STATUS_RCLONE = f"RClone {version_cache['rclone']}"
+        self.STATUS_ARIA = f"Aʀɪᴀ2 v{version_cache['aria']}"
+        self.STATUS_AIOHTTP = f"AɪᴏHᴛᴛᴘ {version_cache['aiohttp']}"
+        self.STATUS_GD = f"Gᴏᴏɢʟᴇ-API v{version_cache['gapi']}"
+        self.STATUS_MEGA = f"MᴇɢᴀSDK v{version_cache['mega']}"
+        self.STATUS_QB = f"QBɪᴛ {version_cache['qbit']}"
+        self.STATUS_TG = f"PʏʀᴏMᴜʟᴛɪ v{version_cache['pyro']}"
+        self.STATUS_YT = "ʏᴛ-ᴅʟᴘ v{version_cache['ytdlp']}"
+        self.STATUS_EXT = "ᴘExᴛʀᴀᴄᴛ v2"
+        self.STATUS_SPLIT_MERGE = f"ғғᴍᴘᴇɢ v{version_cache['ffmpeg']}"
+        self.STATUS_ZIP = f"ᴘ7ᴢɪᴘ v{version_cache['p7zip']}"
+        self.STATUS_QUEUE = "Sʟᴇᴇᴘ v0"
+        self.STATUS_RCLONE = f"RCʟᴏɴᴇ {version_cache['rclone']}"
 
 
 def get_readable_message():
