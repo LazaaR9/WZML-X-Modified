@@ -44,17 +44,17 @@ PAGE_NO      = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING   = "Upload"
-    STATUS_DOWNLOADING = "Download"
-    STATUS_CLONING     = "Clone"
-    STATUS_QUEUEDL     = "QueueDL"
-    STATUS_QUEUEUP     = "QueueUp"
-    STATUS_PAUSED      = "Pause"
-    STATUS_ARCHIVING   = "Archive"
-    STATUS_EXTRACTING  = "Extract"
-    STATUS_SPLITTING   = "Split"
-    STATUS_CHECKING    = "CheckUp"
-    STATUS_SEEDING     = "Seed"
+    STATUS_UPLOADING   = "Uᴘʟᴏᴀᴅɪɴɢ"
+    STATUS_DOWNLOADING = "Dᴏᴡɴʟᴏᴀᴅɪɴɢ"
+    STATUS_CLONING     = "Cʟᴏɴᴇ"
+    STATUS_QUEUEDL     = "QᴜᴇᴜᴇDL"
+    STATUS_QUEUEUP     = "QᴜᴇᴜᴇUᴘ"
+    STATUS_PAUSED      = "Pᴀᴜsᴇ"
+    STATUS_ARCHIVING   = "Aʀᴄʜɪᴠᴇ"
+    STATUS_EXTRACTING  = "Exᴛʀᴀᴄᴛ"
+    STATUS_SPLITTING   = "Sᴘʟɪᴛ"
+    STATUS_CHECKING    = "CʜᴇᴄᴋUᴘ"
+    STATUS_SEEDING     = "Sᴇᴇᴅq"
 
 
 class setInterval:
@@ -183,18 +183,18 @@ class EngineStatus:
         if not (version_cache := bot_cache.get('eng_versions')):
             get_all_versions()
             version_cache = bot_cache.get('eng_versions')
-        self.STATUS_ARIA = f"Aria2 v{version_cache['aria']}"
-        self.STATUS_AIOHTTP = f"AioHttp {version_cache['aiohttp']}"
-        self.STATUS_GD = f"Google-API v{version_cache['gapi']}"
-        self.STATUS_MEGA = f"MegaSDK v{version_cache['mega']}"
-        self.STATUS_QB = f"qBit {version_cache['qbit']}"
-        self.STATUS_TG = f"PyroFork v{version_cache['pyro']}"
-        self.STATUS_YT = f"yt-dlp v{version_cache['ytdlp']}"
-        self.STATUS_EXT = "pExtract v2"
-        self.STATUS_SPLIT_MERGE = f"ffmpeg v{version_cache['ffmpeg']}"
-        self.STATUS_ZIP = f"p7zip v{version_cache['p7zip']}"
-        self.STATUS_QUEUE = "Sleep v0"
-        self.STATUS_RCLONE = f"RClone {version_cache['rclone']}"
+        self.STATUS_ARIA = f"Aʀɪᴀ𝟸 v{version_cache['aria']}"
+        self.STATUS_AIOHTTP = f"AɪᴏHᴛᴛᴘ {version_cache['aiohttp']}"
+        self.STATUS_GD = f"Gᴏᴏɢʟᴇ-Aᴘɪ v{version_cache['gapi']}"
+        self.STATUS_MEGA = f"MᴇɢᴀSᴅᴋ v{version_cache['mega']}"
+        self.STATUS_QB = f"ǫBɪᴛ {version_cache['qbit']}"
+        self.STATUS_TG = f"PʏʀᴏFᴏʀᴋ v{version_cache['pyro']}"
+        self.STATUS_YT = f"Yᴛ-Dʟᴘ v{version_cache['ytdlp']}"
+        self.STATUS_EXT = "ᴘExᴛʀᴀᴄᴛ ᴠ𝟸"
+        self.STATUS_SPLIT_MERGE = f"FғMᴘᴇɢ v{version_cache['ffmpeg']}"
+        self.STATUS_ZIP = f"ᴘ𝟽Zɪᴘ v{version_cache['p7zip']}"
+        self.STATUS_QUEUE = "Sʟᴇᴇᴘ ᴠ𝟶"
+        self.STATUS_RCLONE = f"RCʟᴏɴᴇ {version_cache['rclone']}"
 
 
 def get_readable_message():
@@ -501,10 +501,10 @@ async def get_stats(event, key="home"):
     btns.ibutton('Back', f'wzmlx {user_id} stats home')
     if key == "home":
         btns = ButtonMaker()
-        btns.ibutton('Bot Stats', f'wzmlx {user_id} stats stbot')
-        btns.ibutton('OS Stats', f'wzmlx {user_id} stats stsys')
-        btns.ibutton('Repo Stats', f'wzmlx {user_id} stats strepo')
-        btns.ibutton('Bot Limits', f'wzmlx {user_id} stats botlimits')
+        btns.ibutton('Bᴏᴛ Sᴛᴀᴛs', f'wzmlx {user_id} stats stbot')
+        btns.ibutton('Os Sᴛᴀᴛs', f'wzmlx {user_id} stats stsys')
+        btns.ibutton('Rᴇᴘᴏ Sᴛᴀᴛs', f'wzmlx {user_id} stats strepo')
+        btns.ibutton('Bᴏᴛ Lɪᴍɪᴛs', f'wzmlx {user_id} stats botlimits')
         msg = "⌬ <b><i>Bot & OS Statistics!</i></b>"
     elif key == "stbot":
         total, used, free, disk = disk_usage('/')
@@ -528,10 +528,10 @@ async def get_stats(event, key="home"):
             disk_bar=get_progress_bar_string(disk),
             disk_read=f"{get_readable_file_size(disk_io.read_bytes)} ({get_readable_time(disk_io.read_time / 1000)})"
             if disk_io
-            else "Access Denied",
+            else "Aᴄᴄᴇss Dᴇɴɪᴇᴅ",
             disk_write=f"{get_readable_file_size(disk_io.write_bytes)} ({get_readable_time(disk_io.write_time / 1000)})"
             if disk_io
-            else "Access Denied",
+            else "Aᴄᴄᴇss Dᴇɴɪᴇᴅ",
             disk_t=get_readable_file_size(total),
             disk_u=get_readable_file_size(used),
             disk_f=get_readable_file_size(free),
@@ -579,8 +579,8 @@ async def get_stats(event, key="home"):
                 CL = ('∞' if (val := config_dict['CLONE_LIMIT']) == '' else val),
                 ML = ('∞' if (val := config_dict['MEGA_LIMIT']) == '' else val),
                 LL = ('∞' if (val := config_dict['LEECH_LIMIT']) == '' else val),
-                TV  = ('Disabled' if (val := config_dict['TOKEN_TIMEOUT']) == '' else get_readable_time(val)),
-                UTI = ('Disabled' if (val := config_dict['USER_TIME_INTERVAL']) == 0 else get_readable_time(val)),
+                TV  = ('Dɪsᴀʙʟᴇᴅ' if (val := config_dict['TOKEN_TIMEOUT']) == '' else get_readable_time(val)),
+                UTI = ('Dɪsᴀʙʟᴇᴅ' if (val := config_dict['USER_TIME_INTERVAL']) == 0 else get_readable_time(val)),
                 UT = ('∞' if (val := config_dict['USER_MAX_TASKS']) == '' else val),
                 BT = ('∞' if (val := config_dict['BOT_MAX_TASKS']) == '' else val),
         )
