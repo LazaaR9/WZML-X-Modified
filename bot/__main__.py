@@ -40,7 +40,7 @@ async def stats(client, message):
 
 @new_task
 async def start(client, message):
-    sticker_message = await message.reply_sticker("CAACAgIAAxkBAAEXyPRledQ6luKt1QABSPMPi2s4rgH3xMUAAmkdAALpI4hJ8xCGgSybQv8zBA")
+    sticker_message = await message.reply_sticker("CAACAgIAAxkBAAEtHc9mujrAsWOqxgdgeW1buCMzJRI6MQACeBEAAvOz2Up9EgJ1A6-HOjUE")
     await asyncio.sleep(2)
     await sticker_message.delete()
     buttons = ButtonMaker()
@@ -106,7 +106,7 @@ async def login(_, message):
 
 
 async def restart(client, message):
-    sticker_message = await message.reply_sticker("CAACAgUAAxkBAAEXrSRlbwYlArKGw0lVGUGHquKMqbu3fQACLggAAmCIwVXm28BgWp1jmzME")
+    sticker_message = await message.reply_sticker("CAACAgIAAxkBAAEtHdFmujsPGntfFSppfQe4rD6mo_s8fQACChAAAk5MmErrhQcs-hPVJTUE")
     await asyncio.sleep(2)
     await sticker_message.delete()
     restart_message = await sendMessage(message, BotTheme('RESTARTING'))
