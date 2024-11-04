@@ -240,7 +240,7 @@ def get_readable_message():
             msg += BotTheme('NON_ENGINE', Engine=download.eng())
 
         msg += BotTheme('USER',
-                        User={self.tag})
+                        User=download.message.from_user.tag)
         msg += BotTheme('ID', Id=download.message.from_user.id)
         if (download.eng()).startswith("qBit"):
             msg += BotTheme('BTSEL', Btsel=f"/{BotCommands.BtSelectCommand}_{download.gid()}")
