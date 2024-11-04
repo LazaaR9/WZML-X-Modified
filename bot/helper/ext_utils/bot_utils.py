@@ -189,7 +189,7 @@ class EngineStatus:
         self.STATUS_MEGA = f"⭕️ MᴇɢᴀSᴅᴋ <code>v{version_cache['mega']}</code>"
         self.STATUS_QB = f"🦠 ǫBɪᴛ <code>{version_cache['qbit']}</code></code>"
         self.STATUS_TG = f"💥 PʏʀᴏFᴏʀᴋ <code>v{version_cache['pyro']}</code>"
-        self.STATUS_YT = f"🌈ʏᴛ-ᴅʟᴘ<code>v{version_cache['ytdlp']}</code>"
+        self.STATUS_YT = f"⭐ ʏᴛ-ᴅʟᴘ <code>v{version_cache['ytdlp']}</code>"
         self.STATUS_EXT = "⚔️ ᴘExᴛʀᴀᴄᴛ ᴠ𝟸"
         self.STATUS_SPLIT_MERGE = f"🍿 FғMᴘᴇɢ <code>v{version_cache['ffmpeg']}</code>"
         self.STATUS_ZIP = f"🛠 ᴘ𝟽Zɪᴘ <code>v{version_cache['p7zip']}</code>"
