@@ -183,18 +183,18 @@ class EngineStatus:
         if not (version_cache := bot_cache.get('eng_versions')):
             get_all_versions()
             version_cache = bot_cache.get('eng_versions')
-        self.STATUS_ARIA = f"📶 Aʀɪᴀ𝟸 v{version_cache['aria']}"
-        self.STATUS_AIOHTTP = f"🌐 AɪᴏHᴛᴛᴘ {version_cache['aiohttp']}"
-        self.STATUS_GD = f"♻️ Gᴏᴏɢʟᴇ-Aᴘɪ v{version_cache['gapi']}"
-        self.STATUS_MEGA = f"⭕️ MᴇɢᴀSᴅᴋ v{version_cache['mega']}"
-        self.STATUS_QB = f"🦠 ǫBɪᴛ <code>{version_cache['qbit']}</code>"
-        self.STATUS_TG = f"💥PʏʀᴏFᴏʀᴋ <code>v{version_cache['pyro']}</code>"
-        self.STATUS_YT = f"ʏᴛ-ᴅʟᴘ v{version_cache['ytdlp']}"
+        self.STATUS_ARIA = f"📶 Aʀɪᴀ𝟸 <code>v{version_cache['aria']}</code>"
+        self.STATUS_AIOHTTP = f"🌐 AɪᴏHᴛᴛᴘ <code>{version_cache['aiohttp']}</code>"
+        self.STATUS_GD = f"♻️ Gᴏᴏɢʟᴇ-Aᴘɪ <code>v{version_cache['gapi']}</code>"
+        self.STATUS_MEGA = f"⭕️ MᴇɢᴀSᴅᴋ <code>v{version_cache['mega']}</code>"
+        self.STATUS_QB = f"🦠 ǫBɪᴛ <code>{version_cache['qbit']}</code></code>"
+        self.STATUS_TG = f"💥 PʏʀᴏFᴏʀᴋ <code>v{version_cache['pyro']}</code>"
+        self.STATUS_YT = f"🌈ʏᴛ-ᴅʟᴘ<code>v{version_cache['ytdlp']}</code>"
         self.STATUS_EXT = "⚔️ ᴘExᴛʀᴀᴄᴛ ᴠ𝟸"
-        self.STATUS_SPLIT_MERGE = f"🍿 FғMᴘᴇɢ v{version_cache['ffmpeg']}"
-        self.STATUS_ZIP = f"🛠 ᴘ𝟽Zɪᴘ v{version_cache['p7zip']}"
+        self.STATUS_SPLIT_MERGE = f"🍿 FғMᴘᴇɢ <code>v{version_cache['ffmpeg']}</code>"
+        self.STATUS_ZIP = f"🛠 ᴘ𝟽Zɪᴘ <code>v{version_cache['p7zip']}</code>"
         self.STATUS_QUEUE = "💤 Sʟᴇᴇᴘ ᴠ𝟶"
-        self.STATUS_RCLONE = f"🍻 RCʟᴏɴᴇ {version_cache['rclone']}"
+        self.STATUS_RCLONE = f"🍻 RCʟᴏɴᴇ <code>{version_cache['rclone']}</code>"
 
 
 def get_readable_message():
