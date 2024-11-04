@@ -177,12 +177,12 @@ class WZMLStyle:
     STATUS_NAME =       '<b><i>{Name}</i></b>'
 
     #####---------PROGRESSIVE STATUS-------
+    STATUS =            '\n<b>┌ <a href="{Url}">{Status}</a></b>'
     BAR =               '\n┃ {Bar}'
     PROCESSED =         '\n┠ <b>Dᴏɴᴇ:</b> {Processed}'
-    STATUS =            '\n┠ <b>Sᴛᴀᴛᴜs:</b> <a href="{Url}">{Status}</a>'
-    ETA =                                                ' | <b>ETA:</b> {Eta}'
+    ETA =               '\n┠ <b>ETA:</b> {Eta}'
     SPEED =             '\n┠ <b>Sᴘᴇᴇᴅ:</b> {Speed}'
-    ELAPSED =                                     ' | <b>Pᴀsᴛ:</b> {Elapsed}'
+    ELAPSED =           '\n┠ <b>Pᴀsᴛ:</b> {Elapsed}'
     ENGINE =            '\n┠ <b>Eɴɢɪɴᴇ:</b> {Engine}'
     STA_MODE =          '\n┠ <b>Mᴏᴅᴇ:</b> {Mode}'
     SEEDERS =           '\n┠ <b>Sᴇᴇᴅᴇʀs:</b> {Seeders} | '
@@ -201,8 +201,7 @@ class WZMLStyle:
     NON_ENGINE =     '\n┠ <b>Eɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>Usᴇʀ:</b> <code>{User}</code> | '
-    ID =                                                        '<b>ID:</b> <code>{Id}</code>'
+    USER =           '\n┠ <b>Usᴇʀ:</b> <code>{User}</code> | <code>{Id}</code>'
     BTSEL =          '\n┠ <b>Sᴇʟᴇᴄᴛ:</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
 
@@ -211,7 +210,7 @@ class WZMLStyle:
     TASKS =  '┠<b>Tᴀsᴋs:</b> {Tasks}\n'
     BOT_TASKS = '┠<b>Tᴀsᴋs:</b> {Tasks}/{Ttask} | <b>⚰️ AVL:</b> {Free}\n'
     Cpu = '┠<b>Cᴘᴜ:</b> {cpu}% | '
-    FREE =                      '<b>F:</b> {free}'
+    FREE =                      '<b>Fʀᴇᴇ:</b> {free}'
     Ram = '\n┠<b>Rᴀᴍ:</b> {ram}% | '
     uptime =                     '<b>Uᴘ:</b> {uptime}'
     DL = '\n┗<b>🔻 DL:</b> {DL}/s | '
