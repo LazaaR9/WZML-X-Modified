@@ -44,17 +44,17 @@ PAGE_NO      = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING   = "Uᴘʟᴏᴀᴅɪɴɢ"
-    STATUS_DOWNLOADING = "Dᴏᴡɴʟᴏᴀᴅɪɴɢ"
-    STATUS_CLONING     = "Cʟᴏɴᴇ"
-    STATUS_QUEUEDL     = "QᴜᴇᴜᴇDL"
-    STATUS_QUEUEUP     = "QᴜᴇᴜᴇUᴘ"
-    STATUS_PAUSED      = "Pᴀᴜsᴇ"
-    STATUS_ARCHIVING   = "Aʀᴄʜɪᴠᴇ"
-    STATUS_EXTRACTING  = "Exᴛʀᴀᴄᴛ"
-    STATUS_SPLITTING   = "Sᴘʟɪᴛ"
-    STATUS_CHECKING    = "CʜᴇᴄᴋUᴘ"
-    STATUS_SEEDING     = "Sᴇᴇᴅq"
+    STATUS_UPLOADING   = "📤 Uᴘʟᴏᴀᴅɪɴɢ...."
+    STATUS_DOWNLOADING = "📥 Dᴏᴡɴʟᴏᴀᴅɪɴɢ...."
+    STATUS_CLONING     = "♻️ Cʟᴏɴᴇ"
+    STATUS_QUEUEDL     = "💤 QᴜᴇᴜᴇDL"
+    STATUS_QUEUEUP     = "💤 QᴜᴇᴜᴇUᴘ"
+    STATUS_PAUSED      = "⛔️ Pᴀᴜsᴇ"
+    STATUS_ARCHIVING   = "🔐 Aʀᴄʜɪᴠᴇ"
+    STATUS_EXTRACTING  = "📂 Exᴛʀᴀᴄᴛ"
+    STATUS_SPLITTING   = "✂️ Sᴘʟɪᴛ"
+    STATUS_CHECKING    = "📝 CʜᴇᴄᴋUᴘ"
+    STATUS_SEEDING     = "🌧 Sᴇᴇᴅ"
 
 
 class setInterval:
@@ -183,18 +183,18 @@ class EngineStatus:
         if not (version_cache := bot_cache.get('eng_versions')):
             get_all_versions()
             version_cache = bot_cache.get('eng_versions')
-        self.STATUS_ARIA = f"Aʀɪᴀ𝟸 v{version_cache['aria']}"
-        self.STATUS_AIOHTTP = f"AɪᴏHᴛᴛᴘ {version_cache['aiohttp']}"
-        self.STATUS_GD = f"Gᴏᴏɢʟᴇ-Aᴘɪ v{version_cache['gapi']}"
-        self.STATUS_MEGA = f"MᴇɢᴀSᴅᴋ v{version_cache['mega']}"
-        self.STATUS_QB = f"ǫBɪᴛ {version_cache['qbit']}"
-        self.STATUS_TG = f"PʏʀᴏFᴏʀᴋ v{version_cache['pyro']}"
-        self.STATUS_YT = f"Yᴛ-Dʟᴘ v{version_cache['ytdlp']}"
-        self.STATUS_EXT = "ᴘExᴛʀᴀᴄᴛ ᴠ𝟸"
-        self.STATUS_SPLIT_MERGE = f"FғMᴘᴇɢ v{version_cache['ffmpeg']}"
-        self.STATUS_ZIP = f"ᴘ𝟽Zɪᴘ v{version_cache['p7zip']}"
-        self.STATUS_QUEUE = "Sʟᴇᴇᴘ ᴠ𝟶"
-        self.STATUS_RCLONE = f"RCʟᴏɴᴇ {version_cache['rclone']}"
+        self.STATUS_ARIA = f"📶 Aʀɪᴀ𝟸 v{version_cache['aria']}"
+        self.STATUS_AIOHTTP = f"🌐 AɪᴏHᴛᴛᴘ {version_cache['aiohttp']}"
+        self.STATUS_GD = f"♻️ Gᴏᴏɢʟᴇ-Aᴘɪ v{version_cache['gapi']}"
+        self.STATUS_MEGA = f"⭕️ MᴇɢᴀSᴅᴋ v{version_cache['mega']}"
+        self.STATUS_QB = f"🦠 ǫBɪᴛ {version_cache['qbit']}"
+        self.STATUS_TG = f"💥 PʏʀᴏFᴏʀᴋ v{version_cache['pyro']}"
+        self.STATUS_YT = f"💀 Yᴛ-Dʟᴘ v{version_cache['ytdlp']}"
+        self.STATUS_EXT = "⚔️ ᴘExᴛʀᴀᴄᴛ ᴠ𝟸"
+        self.STATUS_SPLIT_MERGE = f"🍿 FғMᴘᴇɢ v{version_cache['ffmpeg']}"
+        self.STATUS_ZIP = f"🛠 ᴘ𝟽Zɪᴘ v{version_cache['p7zip']}"
+        self.STATUS_QUEUE = "💤 Sʟᴇᴇᴘ ᴠ𝟶"
+        self.STATUS_RCLONE = f"🍻 RCʟᴏɴᴇ {version_cache['rclone']}"
 
 
 def get_readable_message():
