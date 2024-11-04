@@ -138,8 +138,8 @@ class WZMLStyle:
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b><i>{Name}</i></b>\n'
-    SIZE =                  '┎ <b>Sɪᴢᴇ: </b>{Size}\n'
-    ELAPSE =                '┠ <b>Eʟᴀᴘsᴇᴅ: </b>{Time}\n'
+    SIZE =                  '┎ <b>Sɪᴢᴇ: </b><code>{Size}</code>\n'
+    ELAPSE =                '┠ <b>Eʟᴀᴘsᴇᴅ: </b><code>{Time}</code>\n'
     MODE =                  '┠ <b>Mᴏᴅᴇ: </b>{Mode}\n'
 
     # ----- LEECH -------
@@ -180,24 +180,24 @@ class WZMLStyle:
     STATUS =            '\n┎ <b><a href="{Url}">{Status}</a></b>'
     BAR =               '\n┃ {Bar}'
     PROCESSED =         '\n┠ <code>{Processed}</code>'
-    ETA =               '\n┠ <b>ETA:</b> {Eta}'
-    SPEED =             '\n┠ <b>Sᴘᴇᴇᴅ:</b> {Speed}'
-    ELAPSED =           '\n┠ <b>Pᴀsᴛ:</b> {Elapsed}'
+    ETA =               '\n┠ <b>ETA:</b> <code>{Eta}</code>'
+    SPEED =             '\n┠ <b>Sᴘᴇᴇᴅ:</b> <code>{Speed}</code>'
+    ELAPSED =           '\n┠ <b>Pᴀsᴛ:</b> <code>{Elapsed}</code>'
     ENGINE =            '\n┠ <b>Eɴɢɪɴᴇ:</b> {Engine}'
     STA_MODE =          '\n┠ <b>Mᴏᴅᴇ:</b> {Mode}'
     SEEDERS =           '\n┠ <b>Sᴇᴇᴅᴇʀs:</b> {Seeders} | '
     LEECHERS =                                           '<b>Lᴇᴇᴄʜᴇʀs:</b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>Sɪᴢᴇ: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>Sᴘᴇᴇᴅ: </b> {Speed} | '
+    SEED_SIZE =      '\n┠ <b>Sɪᴢᴇ: </b><code>{Size}</code>'
+    SEED_SPEED =     '\n┠ <b>Sᴘᴇᴇᴅ: </b> <code>{Speed}</code> | '
     UPLOADED =                                     '<b>Uᴘʟᴏᴀᴅᴇᴅ: </b> {Upload}'
-    RATIO =          '\n┠ <b>Rᴀᴛɪᴏ: </b> {Ratio} | '
-    TIME =                                         '<b>Tɪᴍᴇ: </b> {Time}'
+    RATIO =          '\n┠ <b>Rᴀᴛɪᴏ: </b> <code>{Ratio}</code> | '
+    TIME =                                         '<b>Tɪᴍᴇ: </b> <code>{Time}</code>'
     SEED_ENGINE =    '\n┠ <b>Eɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ <b>Sɪᴢᴇ: </b>{Size}'
+    STATUS_SIZE =    '\n┠ <b>Sɪᴢᴇ: </b><code>{Size}</code>'
     NON_ENGINE =     '\n┠ <b>Eɴɢɪɴᴇ:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
@@ -210,12 +210,12 @@ class WZMLStyle:
     FOOTER = '⌬ <b><u>Bᴏᴛ Sᴛᴀᴛs.....</u></b>\n'
     TASKS =  '┠<b>Tᴀsᴋs:</b> {Tasks}\n'
     BOT_TASKS = '┠<b>Tᴀsᴋs:</b> {Tasks}/{Ttask} | <b>⚰️ AVL:</b> {Free}\n'
-    Cpu = '┠<b>Cᴘᴜ:</b> {cpu}% | '
-    FREE =                      '<b>Fʀᴇᴇ:</b> {free}'
-    Ram = '\n┠<b>Rᴀᴍ:</b> {ram}% | '
-    uptime =                     '<b>Uᴘ:</b> {uptime}'
-    DL = '\n┗<b>🔻 DL:</b> {DL}/s | '
-    UL =                        '<b>🔺 UL:</b> {UL}/s'
+    Cpu = '┠<b>Cᴘᴜ:</b> <code>{cpu}%</code> | '
+    FREE =                      '<b>F:</b> <code>{free}</code>'
+    Ram = '\n┠<b>Rᴀᴍ:</b> <code>{ram}%</code> | '
+    uptime =                     '<b>Uᴘ:</b> <code>{uptime}</code>'
+    DL = '\n┗<b>🔻 DL:</b> <code>{DL}/s</code> | '
+    UL =                        '<b>🔺 UL:</b> <code>{UL}/s</code>'
 
     ###--------BUTTONS-------
     PREVIOUS = '⫷'
@@ -247,8 +247,8 @@ class WZMLStyle:
     NO_ACTIVE_DL = '''Nᴏ Aᴄᴛɪᴠᴇ Dᴏᴡɴʟᴏᴀᴅs ! 🗑️
     
 ⌬ <u><b>Bᴏᴛ Sᴛᴀᴛs.......</b></u>
-┠<b>🖥️ Cᴘᴜ:</b> {cpu}% | <b>💿 F:</b> {free}
-┖<b>🎮 Rᴀᴍ:</b> {ram} | <b>🚀 Uᴘᴛɪᴍᴇ:</b> {uptime}
+┠<b>🖥️ Cᴘᴜ:</b> <code>{cpu}%</code> | <b>💿 F:</b> <code>{free}</code>
+┖<b>🎮 Rᴀᴍ:</b> <code>{ram}</code> | <b>🚀 Uᴘᴛɪᴍᴇ:</b> <code>{uptime}</code>
     '''
     # ---------------------
 
