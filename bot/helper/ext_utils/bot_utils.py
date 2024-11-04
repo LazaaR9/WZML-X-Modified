@@ -239,8 +239,9 @@ def get_readable_message():
             msg += BotTheme('STATUS_SIZE', Size=download.size())
             msg += BotTheme('NON_ENGINE', Engine=download.eng())
 
-        msg += BotTheme('ID', 
-                        Id=download.message.from_user.id.mention(style="html"))
+        msg += BotTheme('USER',
+                        User={self.tag})
+        msg += BotTheme('ID', Id=download.message.from_user.id)
         if (download.eng()).startswith("qBit"):
             msg += BotTheme('BTSEL', Btsel=f"/{BotCommands.BtSelectCommand}_{download.gid()}")
         msg += BotTheme('CANCEL', Cancel=f"/{BotCommands.CancelMirror}_{download.gid()}")
