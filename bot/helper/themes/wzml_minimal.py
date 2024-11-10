@@ -145,7 +145,7 @@ class WZMLStyle:
     # ----- LEECH -------
     L_TOTAL_FILES =         '┠ <b>Tᴏᴛᴀʟ Fɪʟᴇs: </b>{Files}\n'
     L_CORRUPTED_FILES =     '┠ <b>Cᴏʀʀᴜᴘᴛᴇᴅ Fɪʟᴇs: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>Bʏ: </b>{Tag}\n\n'
+    L_CC =                  '┖ <b>Bʏ: </b>{Tag}\n'
     PM_BOT_MSG =            '➲ <b><i>Fɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ Sᴇɴᴛ ᴀʙᴏᴠᴇ</i></b>'
     L_BOT_MSG =             '➲ <b><i>Fɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ Sᴇɴᴛ ᴛᴏ Bᴏᴛ PM (Pʀɪᴠᴀᴛᴇ)</i></b>'
     L_LL_MSG =              '➲ <b><i>Fɪʟᴇ(s) ʜᴀᴠᴇ ʙᴇᴇɴ Sᴇɴᴛ. Aᴄᴄᴇss ᴠɪᴀ Lɪɴᴋs...</i></b>\n'
