@@ -42,4 +42,3 @@ tgcrypto
 uvloop
 xattr
 yt-dlp
-git+https://github.com/Hrishi2861/mega-sdk-py-4.8.0.git
