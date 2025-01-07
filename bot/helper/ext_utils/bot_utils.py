@@ -44,8 +44,8 @@ PAGE_NO      = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING   = "📤 Uᴘʟᴏᴀᴅɪɴɢ...."
-    STATUS_DOWNLOADING = "📥 Dᴏᴡɴʟᴏᴀᴅɪɴɢ...."
+    STATUS_UPLOADING   = "📤 Uᴘʟᴏᴀᴅɪɴɢ..."
+    STATUS_DOWNLOADING = "📥 Dᴏᴡɴʟᴏᴀᴅɪɴɢ..."
     STATUS_CLONING     = "♻️ Cʟᴏɴᴇ"
     STATUS_QUEUEDL     = "💤 QᴜᴇᴜᴇDL"
     STATUS_QUEUEUP     = "💤 QᴜᴇᴜᴇUᴘ"
