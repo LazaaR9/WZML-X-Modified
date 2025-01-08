@@ -44,17 +44,17 @@ PAGE_NO      = 1
 
 
 class MirrorStatus:
-    STATUS_UPLOADING   = "📤 Uᴘʟᴏᴀᴅɪɴɢ »"
-    STATUS_DOWNLOADING = "📥 Dᴏᴡɴʟᴏᴀᴅɪɴɢ »"
-    STATUS_CLONING     = "♻️ Cʟᴏɴɪɴɢ  »"
+    STATUS_UPLOADING   = "📤 Uᴘʟᴏᴀᴅɪɴɢ » "
+    STATUS_DOWNLOADING = "📥 Dᴏᴡɴʟᴏᴀᴅɪɴɢ » "
+    STATUS_CLONING     = "♻️ Cʟᴏɴɪɴɢ  » "
     STATUS_QUEUEDL     = "💤 QᴜᴇᴜᴇDL "
     STATUS_QUEUEUP     = "💤 QᴜᴇᴜᴇUᴘ "
     STATUS_PAUSED      = "⛔️ Pᴀᴜsᴇ "
     STATUS_ARCHIVING   = "🔐 Aʀᴄʜɪᴠᴇ "
     STATUS_EXTRACTING  = "📂 Exᴛʀᴀᴄᴛ "
-    STATUS_SPLITTING   = "✂️ Sᴘʟɪᴛᴛɪɴɢ »"
+    STATUS_SPLITTING   = "✂️ Sᴘʟɪᴛᴛɪɴɢ » "
     STATUS_CHECKING    = "📝 CʜᴇᴄᴋUᴘ "
-    STATUS_SEEDING     = "🌧 Sᴇᴇᴅɪɴɢ »"
+    STATUS_SEEDING     = "🌧 Sᴇᴇᴅɪɴɢ » "
 
 
 class setInterval:
