@@ -700,10 +700,6 @@ async def set_commands(client):
                 BotCommands.BtSelectCommand,
                 'Select files to download only torrents/magnet qbit/aria2c',
             ),
-            BotCommand(
-                BotCommands.CategorySelect,
-                'Select Upload Category with UserTD or Bot Categories to upload only GDrive upload',
-            ),
             BotCommand(BotCommands.CancelMirror, 'Cancel a Task of yours!'),
             BotCommand(
                 BotCommands.CancelAllCommand[0],
@@ -718,24 +714,8 @@ async def set_commands(client):
                 f"or /{BotCommands.UserSetCommand[1]} User's Personal Settings (Open in PM)",
             ),
             BotCommand(
-                BotCommands.IMDBCommand,
-                'Search Movies/Series on IMDB.com and fetch details',
-            ),
-            BotCommand(
-                BotCommands.AniListCommand,
-                'Search Animes on AniList.com and fetch details',
-            ),
-            BotCommand(
-                BotCommands.MyDramaListCommand,
-                'Search Dramas on MyDramaList.com and fetch details',
-            ),
-            BotCommand(
                 BotCommands.SpeedCommand[0],
                 f'or /{BotCommands.SpeedCommand[1]} Check Server Up & Down Speed & Details',
-            ),
-            BotCommand(
-                BotCommands.MediaInfoCommand[0],
-                f'or /{BotCommands.MediaInfoCommand[1]} Generate Mediainfo for Replied Media or DL links',
             ),
             BotCommand(
                 BotCommands.BotSetCommand[0],
