@@ -710,6 +710,10 @@ async def set_commands(client):
                 'Get detailed help about the WZML-X Bot',
             ),
             BotCommand(
+                BotCommands.LogCommand,
+                'Bot Logging Info :(',
+            ),
+            BotCommand(
                 BotCommands.UserSetCommand[0],
                 f"or /{BotCommands.UserSetCommand[1]} User's Personal Settings (Open in PM)",
             ),
@@ -720,10 +724,6 @@ async def set_commands(client):
             BotCommand(
                 BotCommands.BotSetCommand[0],
                 f"or /{BotCommands.BotSetCommand[1]} Bot's Personal Settings (Owner or Sudo Only)",
-            ),
-            BotCommand(
-                BotCommands.LogCommand[0],
-                f'or /{BotCommands.LogCommand[1]} Bot Logger Information (Owner or Sudo Only)',
             ),
             BotCommand(
                 BotCommands.RestartCommand[0],
