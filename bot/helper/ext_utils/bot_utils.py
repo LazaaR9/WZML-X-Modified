@@ -743,7 +743,7 @@ async def set_commands(client):
             ),
             BotCommand(
                 BotCommands.LogCommand[0],
-                f'or /{BotCommands.LogCommand[1]} Bot Log Information (Owner or Sudo Only)',
+                f'or /{BotCommands.LogCommand[1]} Bot Logger Information (Owner or Sudo Only)',
             ),
             BotCommand(
                 BotCommands.RestartCommand[0],
