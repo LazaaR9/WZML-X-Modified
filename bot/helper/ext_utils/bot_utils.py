@@ -702,10 +702,6 @@ async def set_commands(client):
             ),
             BotCommand(BotCommands.CancelMirror, 'Cancel a Task of yours!'),
             BotCommand(
-                BotCommands.CancelAllCommand[0],
-                'Cancel all Tasks in whole Bots.',
-            ),
-            BotCommand(
                 BotCommands.HelpCommand,
                 'Get detailed help about the WZML-X Bot',
             ),
@@ -716,10 +712,6 @@ async def set_commands(client):
             BotCommand(
                 BotCommands.UserSetCommand[0],
                 f"or /{BotCommands.UserSetCommand[1]} User's Personal Settings (Open in PM)",
-            ),
-            BotCommand(
-                BotCommands.SpeedCommand[0],
-                f'or /{BotCommands.SpeedCommand[1]} Check Server Up & Down Speed & Details',
             ),
             BotCommand(
                 BotCommands.BotSetCommand[0],
